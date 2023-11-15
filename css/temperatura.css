@@ -1,0 +1,52 @@
+:root {
+  --link-image: url("https://cdn.pixabay.com/photo/2020/01/15/09/36/thermometer-4767445_1280.jpg");
+}
+
+body {
+  background-color: #000;
+  background-image: var(--link-image);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  text-align: center;
+}
+
+.container {
+  color: #8b8b8b;
+  text-transform: uppercase;
+}
+
+.home {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 200px;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}

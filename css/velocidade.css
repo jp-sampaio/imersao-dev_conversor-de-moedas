@@ -1,0 +1,49 @@
+:root {
+  --link-image: url("https://res.cloudinary.com/momentum-media-group-pty-ltd/image/upload/v1686795211/Space%20Connect/space-exploration-sc_fm1ysf.jpg");
+}
+
+body {
+  background-color: #000000;
+  background-image: var(--link-image);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.container {
+  color: aliceblue;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.input-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+input {
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: burlywood;
+  text-transform: uppercase;
+  font-weight: bold;
+}
